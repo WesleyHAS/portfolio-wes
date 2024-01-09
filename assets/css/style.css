@@ -3955,3 +3955,16 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(221 221 221 / var(--tw-bg-opacity));
 }
+
+.icon-container {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  display: flex;
+  align-items: flex-end; /* Align the content to the bottom */
+  justify-content: center;
+}
+
+.icon-container i {
+  font-size: 3rem; /* Adjust the font size as needed */
+  color: #333; /* Adjust the color as needed */
+}
