@@ -1,0 +1,16 @@
+{
+  "name": "tunis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i build/tailwind.css -o assets/css/style.css --watch",
+    "build": "npx tailwindcss -i build/tailwind.css -o assets/css/style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
