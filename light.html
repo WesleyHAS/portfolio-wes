@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
       rel="stylesheet"
     />
+    <!-- Font Awesome Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -23,12 +24,12 @@
     <link rel="stylesheet" href="assets/css/component.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- CSS Skin File -->
-    <link rel="stylesheet" href="assets/css/skins/blue.css" />
+    <link rel="stylesheet" href="assets/css/skins/green.css" />
     <!-- Modernizr JS File -->
     <script src="assets/js/modernizr.min.js"></script>
   </head>
   <body
-    class="home font-Poppins text-fs-16 text-black-6 font-medium leading-lh-1.6 relative w-full h-full bg-white overflow-hidden animation-right"
+    class="home font-Poppins text-fs-16 text-black-6 font-medium leading-lh-1.6 relative w-full h-full bg-white overflow-hidden"
   >
     <!-- Preloader Starts -->
     <div
@@ -106,6 +107,20 @@
             </h2>
           </div>
         </li>
+        <li
+          class="desktop-nav-element group cursor-pointer w-50 h-50 relative flex items-center transition duration-300 my-20 mx-0 rounded-full bg-light-grey"
+        >
+          <i
+            class="fa fa-comments absolute left-0 right-0 mx-auto block text-center top-15 pointer-events-none text-fs-19 group-hover:text-white group-[.active]:text-white transition-all duration-300"
+          ></i>
+          <div class="block p-0 w-50 h-50">
+            <h2
+              class="absolute text-center -z-10 block h-50 pr-25 pl-30 text-fs-15 right-0 opacity-0 text-white leading-lh-50 font-medium transition-all duration-300 rounded-30 group-hover:opacity-100 group-hover:right-27 group-hover:rounded-tl-30 group-hover:rounded-bl-30 group-hover:rounded-tr-none group-hover:rounded-br-none"
+            >
+              Blog
+            </h2>
+          </div>
+        </li>
       </ul>
       <!-- Fixed Desktop Navigation Ends -->
       <!-- Mobile Menu Starts -->
@@ -169,6 +184,16 @@
                 <i class="fa fa-envelope-open"></i>
                 <span class="absolute left-50 xs:left-35 font-normal"
                   >Contact</span
+                >
+              </div>
+            </li>
+            <li class="mobile-nav-element relative pl-30">
+              <div
+                class="uppercase delay-2000 no-underline relative text-fs-26 xs:text-fs-18 py-14"
+              >
+                <i class="fa fa-comments"></i>
+                <span class="absolute left-50 xs:left-35 font-normal"
+                  >Blog</span
                 >
               </div>
             </li>
@@ -266,7 +291,7 @@
                 <h3
                   class="uppercase text-fs-26 xs:text-fs-21 pb-22 font-semibold"
                 >
-                  personal info
+                  personal infos
                 </h3>
                 <img
                   class="hidden xs:block rounded-full border-4 border-solid border-light-grey w-230 h-230 mb-25 mx-auto"
@@ -1354,7 +1379,7 @@
                                 class="underline text-accent"
                                 href="https://github.com/theApostols/the-codex"
                                 target="_blank"
-                                >GitHub</a
+                                >/theApostols/the-codex</a
                               ></span
                             >
                           </div>
@@ -1373,7 +1398,7 @@
                                 class="underline text-accent"
                                 href="https://the-codex.onrender.com/"
                                 target="_blank"
-                                >Deployed App</a
+                                >the-codex.onrender.com</a
                               ></span
                             >
                           </div>
@@ -1402,33 +1427,24 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          Google Book Search Engine
+                          Youtube Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold"
-                              >Google Book Search</span
-                            >
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/booksearch-engine"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
                             <span class="font-semibold"
-                              >MERN Stack Web App</span
+                              >HTML, CSS, Javascript</span
                             >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
@@ -1437,9 +1453,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://booksearch-engine.onrender.com/"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.envato.com</a
                               ></span
                             >
                           </div>
@@ -1469,30 +1485,25 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          React Portfolio
+                          Local Video Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold">React Portfolio</span>
+                            <span class="font-semibold">Video</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/weshas-portfolio"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Videohive</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
-                            <span class="font-semibold">React</span>
+                            <span class="font-semibold"
+                              >Adobe After Effects</span
+                            >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
@@ -1500,9 +1511,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://wesleyhas.netlify.app/"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.videhive.net</a
                               ></span
                             >
                           </div>
@@ -1532,32 +1543,23 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          Tech Blog
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold">Tech Blog</span>
+                            <span class="font-semibold">Video</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/tech-blog"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Videohive</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
-                            <span class="font-semibold"
-                              >Interactive Full-Stack MVC</span
-                            >
+                            <span class="font-semibold">Adobe Premium</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
@@ -1565,9 +1567,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://rainbowtrout14-c7e64305977c.herokuapp.com/"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.videhive.net</a
                               ></span
                             >
                           </div>
@@ -1596,31 +1598,24 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          Critter Sitter
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold">Critter Sitter</span>
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/Team-1-UofT-Project2/critter-sitter"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
                             <span class="font-semibold"
-                              >Interactive Full-Stack MVC</span
+                              >HTML, CSS, Javascript</span
                             >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
@@ -1629,9 +1624,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://desolate-cliffs-01368-b072fa39f7d0.herokuapp.com/"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.envato.com</a
                               ></span
                             >
                           </div>
@@ -1660,33 +1655,24 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          Personalized Information Hub
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold"
-                              >Personalized Information Hub</span
-                            >
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/scs-bc-project-1-group-1/personalized-information-hub"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
                             <span class="font-semibold"
-                              >Interactive Front-End</span
+                              >HTML, CSS, Javascript</span
                             >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
@@ -1695,9 +1681,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://scs-bc-project-1-group-1.github.io/personalized-information-hub/"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.envato.com</a
                               ></span
                             >
                           </div>
@@ -1726,31 +1712,24 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          Shop Shop
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold">Redux E-Commerce</span>
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/redux-ecommerce"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
                             <span class="font-semibold"
-                              >State Management with Redux</span
+                              >HTML, CSS, Javascript</span
                             >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
@@ -1759,9 +1738,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://redux-ecommerce.onrender.com/"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.envato.com</a
                               ></span
                             >
                           </div>
@@ -1790,31 +1769,24 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          J.A.T.E
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold">J.A.T.E</span>
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/pwa_texteditor"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
                             <span class="font-semibold"
-                              >Progressive Web Application (PWA)</span
+                              >HTML, CSS, Javascript</span
                             >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
@@ -1823,9 +1795,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://github.com/WesleyHAS/pwa_texteditor"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.envato.com</a
                               ></span
                             >
                           </div>
@@ -1854,39 +1826,37 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          MySQL Employee Tracker
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold"
-                              >MySQL Employee Tracker</span
-                            >
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/mysql-employee-tracker"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
                             <span class="font-semibold"
-                              >MySQL Content Management System</span
+                              >HTML, CSS, Javascript</span
                             >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
                             ><span class="project-label">Preview </span>:
-                            <span class="font-semibold">Not Deployed</span>
+                            <span class="font-semibold"
+                              ><a
+                                class="underline text-accent"
+                                href="#"
+                                target="_blank"
+                                >www.envato.com</a
+                              ></span
+                            >
                           </div>
                         </div>
                       </figcaption>
@@ -1913,30 +1883,25 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          Horiseon
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold">Horiseon</span>
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/horiseon-web-expertise"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
-                            <span class="font-semibold">Advanced CSS</span>
+                            <span class="font-semibold"
+                              >HTML, CSS, Javascript</span
+                            >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
@@ -1944,9 +1909,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://wesleyhas.github.io/horiseon-web-expertise/"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.envato.com</a
                               ></span
                             >
                           </div>
@@ -1975,30 +1940,25 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          Weather Dashboard
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold">Weather Dashboard</span>
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/weather-dashboard-project"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
-                            <span class="font-semibold">Server-Side API</span>
+                            <span class="font-semibold"
+                              >HTML, CSS, Javascript</span
+                            >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
@@ -2006,9 +1966,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://wesleyhas.github.io/weather-dashboard-project/"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.envato.com</a
                               ></span
                             >
                           </div>
@@ -2037,30 +1997,25 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          Note Taker
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold">Note Taker</span>
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/note-taker"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
-                            <span class="font-semibold">ExpressJS</span>
+                            <span class="font-semibold"
+                              >HTML, CSS, Javascript</span
+                            >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
@@ -2068,9 +2023,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://pacific-sea-55121-e1e3f466f860.herokuapp.com/"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.envato.com</a
                               ></span
                             >
                           </div>
@@ -2099,32 +2054,25 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          Pre Work Study Guide
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold"
-                              >Pre Work Study Guide</span
-                            >
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/prework-study-guide"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
-                            <span class="font-semibold">HTML/CSS</span>
+                            <span class="font-semibold"
+                              >HTML, CSS, Javascript</span
+                            >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
@@ -2132,9 +2080,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://wesleyhas.github.io/prework-study-guide/"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.envato.com</a
                               ></span
                             >
                           </div>
@@ -2163,30 +2111,25 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          Daily Planner
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold">Daily Planner</span>
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/daily-planner-project"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
-                            <span class="font-semibold">Third-Party API</span>
+                            <span class="font-semibold"
+                              >HTML, CSS, Javascript</span
+                            >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
@@ -2194,9 +2137,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://wesleyhas.github.io/daily-planner-project/"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.envato.com</a
                               ></span
                             >
                           </div>
@@ -2225,32 +2168,25 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          Password Generator
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold"
-                              >Password Generator</span
-                            >
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/password-generator-project"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
-                            <span class="font-semibold">JavaScript</span>
+                            <span class="font-semibold"
+                              >HTML, CSS, Javascript</span
+                            >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
@@ -2258,9 +2194,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://wesleyhas.github.io/password-generator-project/"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.envato.com</a
                               ></span
                             >
                           </div>
@@ -2289,30 +2225,25 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          Simple Portfolio
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold">Simple Portfolio</span>
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/personal-portfolio-project"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
-                            <span class="font-semibold">HTML/CSS</span>
+                            <span class="font-semibold"
+                              >HTML, CSS, Javascript</span
+                            >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
@@ -2320,9 +2251,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://wesleyhas.github.io/personal-portfolio-project/"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.envato.com</a
                               ></span
                             >
                           </div>
@@ -2351,30 +2282,25 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          Code Quiz
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold">Code Quiz</span>
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/code-quiz-project"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
-                            <span class="font-semibold">Web API's</span>
+                            <span class="font-semibold"
+                              >HTML, CSS, Javascript</span
+                            >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
@@ -2382,9 +2308,9 @@
                             <span class="font-semibold"
                               ><a
                                 class="underline text-accent"
-                                href="https://wesleyhas.github.io/code-quiz-project/"
+                                href="#"
                                 target="_blank"
-                                >Deployed App</a
+                                >www.envato.com</a
                               ></span
                             >
                           </div>
@@ -2413,39 +2339,37 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          E-Commerce Backend
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold"
-                              >E-Commerce Backend</span
-                            >
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/e-commerce-backend"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
                             <span class="font-semibold"
-                              >MySQL Object-Relational Mapping</span
+                              >HTML, CSS, Javascript</span
                             >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
                             ><span class="project-label">Preview </span>:
-                            <span class="font-semibold">Not Deployed</span>
+                            <span class="font-semibold"
+                              ><a
+                                class="underline text-accent"
+                                href="#"
+                                target="_blank"
+                                >www.envato.com</a
+                              ></span
+                            >
                           </div>
                         </div>
                       </figcaption>
@@ -2472,39 +2396,37 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          Social Network API
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold"
-                              >Social Network API</span
-                            >
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/social_networkapi"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
                             <span class="font-semibold"
-                              >NoSQL Non Relational Mapping</span
+                              >HTML, CSS, Javascript</span
                             >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
                             ><span class="project-label">Preview </span>:
-                            <span class="font-semibold">Not Deployed</span>
+                            <span class="font-semibold"
+                              ><a
+                                class="underline text-accent"
+                                href="#"
+                                target="_blank"
+                                >www.envato.com</a
+                              ></span
+                            >
                           </div>
                         </div>
                       </figcaption>
@@ -2531,37 +2453,37 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          SVG Logo Maker
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold">SVG Logo Maker</span>
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/svg-logomaker"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
                             <span class="font-semibold"
-                              >Object-Oriented Programming (OOP)</span
+                              >HTML, CSS, Javascript</span
                             >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
                             ><span class="project-label">Preview </span>:
-                            <span class="font-semibold">Not Deployed</span>
+                            <span class="font-semibold"
+                              ><a
+                                class="underline text-accent"
+                                href="#"
+                                target="_blank"
+                                >www.envato.com</a
+                              ></span
+                            >
                           </div>
                         </div>
                       </figcaption>
@@ -2588,35 +2510,37 @@
                         <h3
                           class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33"
                         >
-                          README Generator
+                          Image Project
                         </h3>
                         <div class="flex flex-wrap font-Open-sans text-fs-15">
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-file-text-o pr-8"></i
                             ><span class="project-label">Project </span>:
-                            <span class="font-semibold">README Generator</span>
+                            <span class="font-semibold">Website</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
-                            <i class="fa fa-external-link pr-8"></i
-                            ><span class="project-label">Repo </span>:
-                            <span class="font-semibold"
-                              ><a
-                                class="underline text-accent"
-                                href="https://github.com/WesleyHAS/readme-generator"
-                                target="_blank"
-                                >GitHub</a
-                              ></span
-                            >
+                            <i class="fa fa-user-o pr-8"></i
+                            ><span class="project-label">Client </span>:
+                            <span class="font-semibold">Envato</span>
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-code pr-8"></i
                             ><span class="project-label">Langages </span>:
-                            <span class="font-semibold">NodeJS</span>
+                            <span class="font-semibold"
+                              >HTML, CSS, Javascript</span
+                            >
                           </div>
                           <div class="w-1/2 xs:w-full mb-8">
                             <i class="fa fa-external-link pr-8"></i
                             ><span class="project-label">Preview </span>:
-                            <span class="font-semibold">Not Deployed</span>
+                            <span class="font-semibold"
+                              ><a
+                                class="underline text-accent"
+                                href="#"
+                                target="_blank"
+                                >www.envato.com</a
+                              ></span
+                            >
                           </div>
                         </div>
                       </figcaption>
@@ -2711,7 +2635,7 @@
                   <span class="block opacity-80 uppercase font-normal">
                     mail me
                   </span>
-                  wesley.has@outlook.com
+                  steve@mail.com
                 </div>
                 <div
                   class="relative font-Open-sans font-semibold pl-50 pt-5 leading-lh-21 text-fs-15 xs:text-fs-14 mb-16"
@@ -2722,7 +2646,7 @@
                   <span class="block opacity-80 uppercase font-normal">
                     call me
                   </span>
-                  +1 (604) 721-8471
+                  +216 21 184 010
                 </div>
                 <ul class="-ml-5 pt-4 mb-48">
                   <li class="inline-block">
@@ -2831,6 +2755,265 @@
         </div>
       </div>
       <!-- Contact Ends -->
+      <!-- Blog Starts -->
+      <div class="page" id="blog">
+        <div class="w-full">
+          <!-- Section Title Starts -->
+          <div
+            class="mx-auto w-full relative py-80 text-center xs:px-25 xs:pt-16 xs:pb-14 xs:bg-light-grey xs:border-b xs:border-grey xs:fixed xs:left-0 xs:right-0 xs:top-0 xs:z-20"
+          >
+            <h2
+              class="text-fs-56 font-black font-Poppins uppercase text-black-6 m-0 xs:text-fs-26 xs:text-left xs:leading-lh-1.2"
+            >
+              my <span class="text-accent">blog</span>
+            </h2>
+            <span
+              class="text-fs-110 absolute left-0 right-0 top-1/2 tracking-10 leading-lh-0.7 font-extrabold text-light-grey-2 -translate-y-1/2 uppercase xs:hidden"
+              >posts</span
+            >
+          </div>
+          <!-- Section Title Ends -->
+          <div
+            class="xl:max-w-1140 lg:max-w-960 md:max-w-720 sm:max-w-540 xs:max-w-full mx-auto"
+          >
+            <!-- Blog Posts Starts -->
+            <div class="flex flex-wrap down-sm:flex-col">
+              <!-- Blog Post Starts -->
+              <div
+                class="w-1/3 down-xl:w-1/2 down-sm:w-full px-16 xs:px-0 mb-30"
+              >
+                <div class="h-full bg-light-grey-3 rounded-5">
+                  <div class="rounded-t-5 cursor-pointer post-thumb">
+                    <a
+                      href="blog-post-light.html"
+                      class="rounded-t-5 relative overflow-hidden block group outline-0 transition-all duration-300"
+                    >
+                      <img
+                        class="rounded-t-5 transition-all duration-300 group-hover:scale-125"
+                        src="https://via.placeholder.com/895x552"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="bg-light-grey-3 pt-20 px-25 pb-25 rounded-b-5">
+                    <a
+                      href="blog-post-light.html"
+                      class="leading-lh-26 text-fs-20 font-semibold text-accent-hover transition duration-300"
+                    >
+                      How to Own Your Audience by Creating an Email List
+                    </a>
+                    <p class="mt-15 mb-5 font-Open-sans">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Blog Post Ends -->
+              <!-- Blog Post Starts -->
+              <div
+                class="w-1/3 down-xl:w-1/2 down-sm:w-full px-16 xs:px-0 mb-30"
+              >
+                <div class="h-full bg-light-grey-3 rounded-5">
+                  <div class="rounded-t-5 cursor-pointer post-thumb">
+                    <a
+                      href="blog-post-light.html"
+                      class="rounded-t-5 relative overflow-hidden block group outline-0 transition-all duration-300"
+                    >
+                      <img
+                        class="rounded-t-5 transition-all duration-300 group-hover:scale-125"
+                        src="https://via.placeholder.com/895x552"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="bg-light-grey-3 pt-20 px-25 pb-25 rounded-b-5">
+                    <a
+                      href="blog-post-light.html"
+                      class="leading-lh-26 text-fs-20 font-semibold text-accent-hover transition duration-300"
+                    >
+                      Top 10 Toolkits for Deep Learning in 2020
+                    </a>
+                    <p class="mt-15 mb-5 font-Open-sans">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Blog Post Ends -->
+              <!-- Blog Post Starts -->
+              <div
+                class="w-1/3 down-xl:w-1/2 down-sm:w-full px-16 xs:px-0 mb-30"
+              >
+                <div class="h-full bg-light-grey-3 rounded-5">
+                  <div class="rounded-t-5 cursor-pointer post-thumb">
+                    <a
+                      href="blog-post-light.html"
+                      class="rounded-t-5 relative overflow-hidden block group outline-0 transition-all duration-300"
+                    >
+                      <img
+                        class="rounded-t-5 transition-all duration-300 group-hover:scale-125"
+                        src="https://via.placeholder.com/895x552"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="bg-light-grey-3 pt-20 px-25 pb-25 rounded-b-5">
+                    <a
+                      href="blog-post-light.html"
+                      class="leading-lh-26 text-fs-20 font-semibold text-accent-hover transition duration-300"
+                    >
+                      Everything You Need to Know About Web Accessibility
+                    </a>
+                    <p class="mt-15 mb-5 font-Open-sans">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Blog Post Ends -->
+              <!-- Blog Post Starts -->
+              <div
+                class="w-1/3 down-xl:w-1/2 down-sm:w-full px-16 xs:px-0 mb-30"
+              >
+                <div class="h-full bg-light-grey-3 rounded-5">
+                  <div class="rounded-t-5 cursor-pointer post-thumb">
+                    <a
+                      href="blog-post-light.html"
+                      class="rounded-t-5 relative overflow-hidden block group outline-0 transition-all duration-300"
+                    >
+                      <img
+                        class="rounded-t-5 transition-all duration-300 group-hover:scale-125"
+                        src="https://via.placeholder.com/895x552"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="bg-light-grey-3 pt-20 px-25 pb-25 rounded-b-5">
+                    <a
+                      href="blog-post-light.html"
+                      class="leading-lh-26 text-fs-20 font-semibold text-accent-hover transition duration-300"
+                    >
+                      How to Inject Humor & Comedy Into Your Brand
+                    </a>
+                    <p class="mt-15 mb-5 font-Open-sans">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Blog Post Ends -->
+              <!-- Blog Post Starts -->
+              <div
+                class="w-1/3 down-xl:w-1/2 down-sm:w-full px-16 xs:px-0 mb-30"
+              >
+                <div class="h-full bg-light-grey-3 rounded-5">
+                  <div class="rounded-t-5 cursor-pointer post-thumb">
+                    <a
+                      href="blog-post-light.html"
+                      class="rounded-t-5 relative overflow-hidden block group outline-0 transition-all duration-300"
+                    >
+                      <img
+                        class="rounded-t-5 transition-all duration-300 group-hover:scale-125"
+                        src="https://via.placeholder.com/895x552"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="bg-light-grey-3 pt-20 px-25 pb-25 rounded-b-5">
+                    <a
+                      href="blog-post-light.html"
+                      class="leading-lh-26 text-fs-20 font-semibold text-accent-hover transition duration-300"
+                    >
+                      Women in Web Design: How To Achieve Success
+                    </a>
+                    <p class="mt-15 mb-5 font-Open-sans">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Blog Post Ends -->
+              <!-- Blog Post Starts -->
+              <div
+                class="w-1/3 down-xl:w-1/2 down-sm:w-full px-16 xs:px-0 mb-30"
+              >
+                <div class="h-full bg-light-grey-3 rounded-5">
+                  <div class="rounded-t-5 cursor-pointer post-thumb">
+                    <a
+                      href="blog-post-light.html"
+                      class="rounded-t-5 relative overflow-hidden block group outline-0 transition-all duration-300"
+                    >
+                      <img
+                        class="rounded-t-5 transition-all duration-300 group-hover:scale-125"
+                        src="https://via.placeholder.com/895x552"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="bg-light-grey-3 pt-20 px-25 pb-25 rounded-b-5">
+                    <a
+                      href="blog-post-light.html"
+                      class="leading-lh-26 text-fs-20 font-semibold text-accent-hover transition duration-300"
+                    >
+                      Evergreen versus topical content: An overview
+                    </a>
+                    <p class="mt-15 mb-5 font-Open-sans">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod tempor invidunt ut labore...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Blog Post Ends -->
+            </div>
+            <!-- Blog Posts Ends -->
+            <!-- Blog Pagination Starts -->
+            <nav class="mt-24">
+              <ul class="flex justify-center from-sm:mb-100 down-sm:mb-60">
+                <li>
+                  <a
+                    class="w-43 h-43 transition-all duration-300 text-center block leading-lh-45 bg-light-grey text-black-6 bg-accent-hover rounded-full mx-5 hover:text-white"
+                    href="#"
+                  >
+                    1
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="w-43 h-43 transition-all duration-300 text-center block leading-lh-45 bg-accent text-white bg-accent-hover rounded-full mx-5 hover:text-white"
+                    href="#"
+                  >
+                    2
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="w-43 h-43 transition-all duration-300 text-center block leading-lh-45 bg-light-grey text-black-6 bg-accent-hover rounded-full mx-5 hover:text-white"
+                    href="#"
+                  >
+                    3
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="w-43 h-43 transition-all duration-300 text-center block leading-lh-45 bg-light-grey text-black-6 bg-accent-hover rounded-full mx-5 hover:text-white"
+                    href="#"
+                  >
+                    4
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <!-- Blog Pagination Ends -->
+          </div>
+        </div>
+      </div>
+      <!-- Blog Ends -->
     </div>
     <!-- Main Content Ends -->
     <!-- Template JS Files -->
