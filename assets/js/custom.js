@@ -148,7 +148,7 @@
     const messageInput = document.querySelector("#message-input");
 
     const publicKey = "wukU2EfSiT_8XcXCR";
-    const serviceId = "service_53rkit8";
+    const serviceId = "service_c6zx2vn";
     const templateId = "template_0a20aig";
 
     emailjs.init(publicKey);
@@ -156,7 +156,7 @@
     contactForm.addEventListener("submit", (e) => {
       e.preventDefault();
 
-      submitBtn.innerText = "Just a Moment...";
+      // submitBtn.innerText = "Just a Moment...";
 
       const inputFields = {
         name: nameInput.value,
@@ -167,7 +167,7 @@
 
       emailjs.send(serviceId, templateId, inputFields).then(
         () => {
-          submitBtn.innerText = "Message Sent Succesfully";
+          // submitBtn.innerText = "Message Sent Succesfully";
 
           nameInput.value = "";
           emailInput.value = "";
@@ -177,7 +177,7 @@
         (error) => {
           console.log(error);
 
-          submitBtn.innerText = "Something went wrong";
+          // submitBtn.innerText = "Something went wrong";
         }
       );
     });
