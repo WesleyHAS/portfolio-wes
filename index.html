@@ -2737,12 +2737,11 @@
                 <form
                   id="contactform"
                   class="contactform"
-                  method="post"
-                  action="assets/php/process-form.php"
                 >
                   <div class="flex flex-wrap font-normal">
                     <div class="from-sm:w-1/3 down-sm:w-full px-16 xs:px-0">
                       <input
+                        id="name-input"
                         autocomplete="off"
                         class="w-full bg-white text-fs-15 text-black-6 border border-solid border-grey py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form"
                         type="text"
@@ -2752,6 +2751,7 @@
                     </div>
                     <div class="from-sm:w-1/3 down-sm:w-full px-16 xs:px-0">
                       <input
+                      id="email-input"
                         autocomplete="off"
                         class="w-full bg-white text-fs-15 text-black-6 border border-solid border-grey py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form"
                         type="email"
@@ -2761,6 +2761,7 @@
                     </div>
                     <div class="from-sm:w-1/3 down-sm:w-full px-16 xs:px-0">
                       <input
+                      id="subject-input"
                         autocomplete="off"
                         class="w-full bg-white text-fs-15 text-black-6 border border-solid border-grey py-11 px-26 mb-30 rounded-30 outline-0 transition duration-300 placeholder:text-placeholder field-form"
                         type="text"
@@ -2770,12 +2771,14 @@
                     </div>
                     <div class="w-full px-16 xs:px-0">
                       <textarea
+                      id="message-input"
                         class="bg-white w-full text-black-6 border border-solid border-grey h-160 py-12 px-26 overflow-hidden rounded-30 outline-0 transition duration-300 field-form placeholder:text-placeholder"
                         placeholder="YOUR MESSAGE"
                       ></textarea>
                     </div>
                     <div class="w-full px-16 xs:px-0 mt-30">
                       <button
+                        id="submit-btn"
                         type="submit"
                         class="button group overflow-hidden inline-block leading-lh-1.4 rounded-30 text-ellipsis text-center align-middle select-none transition-all duration-250 ease-in-out uppercase no-underline relative z-10 py-16 pr-70 pl-35 text-fs-15 font-semibold text-white bg-transparent outline-0 before:absolute before:-z-10 before:left-0 before:right-0 before:top-0 before:bottom-0 before:translate-x-full hover:before:translate-x-0 before:transition before:duration-300 before:ease-out"
                       >
@@ -2806,6 +2809,7 @@
     </div>
     <!-- Main Content Ends -->
     <!-- Template JS Files -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/imagesloaded.pkgd.min.js"></script>
     <script src="assets/js/masonry.pkgd.min.js"></script>

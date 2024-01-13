@@ -4,6 +4,8 @@
   "description": "",
   "main": "tailwind.config.js",
   "dependencies": {
+    "@emailjs/browser": "^3.12.1",
+    "emailjs": "^4.0.3",
     "tailwindcss": "^3.3.3"
   },
   "scripts": {
