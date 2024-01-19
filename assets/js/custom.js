@@ -140,95 +140,60 @@
     /*  EMAILJS CONTACT FORM
     /* ----------------------------------------------------------- */
 
-    // const contactForm = document.querySelector("#contactform");
-    // const submitBtn = document.querySelector("#submit-btn");
-    // const nameInput = document.querySelector("#name-input");
-    // const emailInput = document.querySelector("#email-input");
-    // const subjectInput = document.querySelector("#subject-input");
-    // const messageInput = document.querySelector("#message-input");
-
-    // const publicKey = "wukU2EfSiT_8XcXCR";
-    // const serviceId = "service_c6zx2vn";
-    // const templateId = "template_0a20aig";
-
-    // emailjs.init(publicKey);
-
-    // contactForm.addEventListener("submit", (e) => {
-    //   e.preventDefault();
-
-    //   // submitBtn.innerText = "Just a Moment...";
-
-    //   const inputFields = {
-    //     name: nameInput.value,
-    //     email: emailInput.value,
-    //     subject: subjectInput.value,
-    //     message: messageInput.value,
-    //   };
-
-    //   emailjs.send(serviceId, templateId, inputFields).then(
-    //     () => {
-    //       // submitBtn.innerText = "Message Sent Succesfully";
-
-    //       nameInput.value = "";
-    //       emailInput.value = "";
-    //       subjectInput.value = "";
-    //       messageInput.value = "";
-    //     },
-    //     (error) => {
-    //       console.log(error);
-
-    //       // submitBtn.innerText = "Something went wrong";
-    //     }
-    //   );
-    // });
-
     const contactForm = document.querySelector("#contactform");
     const submitBtn = document.querySelector("#submit-btn");
     const nameInput = document.querySelector("#name-input");
     const emailInput = document.querySelector("#email-input");
     const subjectInput = document.querySelector("#subject-input");
     const messageInput = document.querySelector("#message-input");
-    
+    const submitContent = document.querySelector("#submit-content");
+
     const publicKey = "wukU2EfSiT_8XcXCR";
     const serviceId = "service_c6zx2vn";
     const templateId = "template_0a20aig";
-    
+
     emailjs.init(publicKey);
-    
+
     contactForm.addEventListener("submit", (e) => {
       e.preventDefault();
-    
+
       // Validate input fields
       if (!validateInputs()) {
         return;
       }
-    
-      // submitBtn.innerText = "Just a Moment...";
-    
+
+      submitContent.innerText = "Just a Moment...";
+
       const inputFields = {
         name: nameInput.value,
         email: emailInput.value,
         subject: subjectInput.value,
         message: messageInput.value,
       };
-    
+
       emailjs.send(serviceId, templateId, inputFields).then(
         () => {
-          // submitBtn.innerText = "Message Sent Successfully";
-    
+          submitContent.innerText = "Message Sent Successfully";
+
           nameInput.value = "";
           emailInput.value = "";
           subjectInput.value = "";
           messageInput.value = "";
+          setTimeout(() => {
+            submitContent.innerText = "Send Message";
+          }, 3000);
         },
         (error) => {
           console.log(error);
-    
-          // submitBtn.innerText = "Something went wrong";
+
+          submitContent.innerText = "Something went wrong";
+          setTimeout(() => {
+            submitContent.innerText = "Send Message";
+          }, 3000);
         }
       );
     });
-    
+
     function validateInputs() {
       if (
         nameInput.value.trim() === "" ||
@@ -240,10 +205,9 @@
         alert("Please fill in all the required fields.");
         return false;
       }
-    
+
       return true;
     }
-
   });
 
   $(document).keyup(function (e) {
